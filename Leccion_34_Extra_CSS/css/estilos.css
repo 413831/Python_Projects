@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p.centrar{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    height: 100px;
+    text-transform: uppercase;
+    text-shadow: 4px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+body{
+    color: cornsilk;
+    background-image: url("/img/fondo.png");
+    /*background: dodgerblue url("/img/fondo.png") no repeat right top;*/
+    background-attachment: fixed;
+}
+
+.caja1{
+    padding: 10px 15px 5px 3px;
+    border:  1px solid #457b9d;
+    margin: 30px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+.caja2{
+    padding: 10px 15px 5px 3px;
+    border:  1px solid #457b9d;
+    margin: 20px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+p.interno{
+    margin-left: inherit;
+}
+
+
+
+.rojo{
+    border: 10px solid hsl(0, 68%, 42%);
+    /*background-color: firebrick;*/
+}
+
+.rosa{
+    border: 10px dashed rgb(255,105, 180);
+    /*background-color: hotpink;*/
+}
+
+.amarillo{
+    border: 10px double gold;
+    /*background-color: gold;*/
+}
+
+.verde{
+    border: 10px dotted hsl(174, 72%, 56%);
+    /*background-color: greenyellow;*/
+}
+
+.violeta{
+    background-color: blueviolet;
+    color: white;
+}
+
+.punteado{
+    border-style: dotted;
+    border-width: 10px 5px 3px 2px;
+    border-color: crimson hotpink gold lime;
+}
+.discontinuo{
+    border-style: dashed;
+    border-width: thick;
+    border-color: hsla(203,39%,44%, 0.5);
+}
+.solido{
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 15px;
+}
+.redondeado{
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
+}
+.doble{
+    border: 5px double;
+}
+.surco{
+    border: 10px groove;
+}
+.cresta{
+    border: 10px ridge;
+}
+.recuadro{
+    border: 10px inset;
+}
+.outset{
+    border: 10px outset;
+}
+.sin_borde{
+    border: none;
+}
+.oculto{
+    border: hidden;
+}
+.mixto{
+    border-style: dotted solid dashed double;
+}

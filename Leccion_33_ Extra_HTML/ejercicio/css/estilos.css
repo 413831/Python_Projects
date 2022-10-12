@@ -1,0 +1,29 @@
+h1{
+    color:blue;
+}
+p{
+    color:white;
+    background-color: crimson;
+    padding: 15px;
+    border: 10px solid black;
+    /*
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    */
+    margin: auto 50px;
+    text_align: center;
+}
+a:link, a:visited{
+    background-color: #b5179e;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover, a:active{
+    background-color: #f72585;
+    color:#8ecae6;
+    text-decoration: underline;
+}
